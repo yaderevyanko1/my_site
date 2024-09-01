@@ -30,6 +30,7 @@ header {
     font-size: 28px;
     border-radius: 10px;
     display: block;
+    border: 2px solid white;
 
 }
 
@@ -70,6 +71,7 @@ h1 {
 .post-text {
     font-size: 24px;
 }
+
 .post-text:hover {
     font-weight: bolder;
     font-style: italic;
@@ -85,6 +87,14 @@ h1 {
 
 .post {
     background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.post:hover {
+    background-color: lightblue;
     padding: 15px 45px 30px 45px;
     width: 400px;
     margin: 20px;
@@ -117,9 +127,6 @@ h1 {
     display: block;
     margin: 10px;
     text-align: center;
-
-
-
 
 }
 
@@ -171,7 +178,7 @@ h1::before {
     vertical-align: middle;
 
 }
- 
+
 
 
 
