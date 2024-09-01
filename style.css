@@ -22,6 +22,18 @@ header {
 
 }
 
+.button:hover {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 28px;
+    border-radius: 10px;
+    display: block;
+
+}
+
+
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -37,6 +49,16 @@ nav {
     display: block;
 }
 
+.nav-link:hover {
+    color: goldenrod;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 28px;
+    background-color: navy;
+}
+
+
 h1 {
     text-align: center;
     color: white;
@@ -47,6 +69,11 @@ h1 {
 
 .post-text {
     font-size: 24px;
+}
+.post-text:hover {
+    font-weight: bolder;
+    font-style: italic;
+    text-align: right;
 }
 
 .info {
@@ -72,6 +99,14 @@ h1 {
     text-align: center;
     padding: 10px 75px 10px 75px;
     display: block;
+}
+
+.article-but:hover {
+    background-color: teal;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 28px;
+
 }
 
 .full-image {
@@ -115,6 +150,7 @@ footer {
     border-radius: 15px;
     padding: 15px;
     width: 85px;
+    height: 150px;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-left: 2px solid white;
@@ -123,15 +159,9 @@ footer {
 
 .soc:hover {
     background-color: green;
+    opacity: 0.8;
 }
 
-.new {
-    position: absolute;
-    right: 20px;
-    top: 428px;
-
-
-}
 
 h1::before {
     content: url("https://learn.logikaschool.com/uploads/2021/03/internet-42583_0_1615562329.svg");
@@ -141,6 +171,10 @@ h1::before {
     vertical-align: middle;
 
 }
+ 
+
+
+
 
 h1::after {
     content: url("https://learn.logikaschool.com/uploads/2021/03/internet-42583_0_1615562329.svg");
@@ -163,9 +197,9 @@ h1::after {
     background-position: center;
     margin-right: 10px;
     vertical-align: middle;
-    }
+}
 
-   .tel::before {
+.tel::before {
     content: "";
     display: inline-block;
     width: 50px;
@@ -178,3 +212,8 @@ h1::after {
     vertical-align: middle;
 }
 
+.post-img:hover {
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
